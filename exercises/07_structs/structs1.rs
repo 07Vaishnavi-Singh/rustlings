@@ -39,7 +39,7 @@ mod tests {
     #[test]
     fn unit_structs() {
         // TODO: Instantiate a unit struct.
-        // let unit_struct =
+        // let unit_struct = 
         let message = format!("{unit_struct:?}s are fun!");
 
         assert_eq!(message, "UnitStructs are fun!");

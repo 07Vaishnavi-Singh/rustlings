@@ -1,8 +1,9 @@
 // TODO: Fix the compiler error in the function without adding any new line.
-fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
-    vec.push(88);
+fn fill_vec( vec: Vec<i32>) -> Vec<i32> {
+    let mut vecX = vec.clone();
+    vecX.push(88);
 
-    vec
+    vecX
 }
 
 fn main() {
